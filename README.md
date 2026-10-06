@@ -19,3 +19,15 @@ Topics:
 
 I work with GIS, geospatial data, Python automation, and data engineering.  
 I'm taking ML Zoomcamp to add applied machine learning and ML engineering skills to this stack.
+
+### Homework 2 — Machine Learning for Regression
+
+Topics:
+- train / validation / test splitting
+- missing-value imputation
+- linear regression
+- RMSE
+- regularization
+- model stability across random seeds
+
+[Open the notebook](02_regression_homework.ipynb)
