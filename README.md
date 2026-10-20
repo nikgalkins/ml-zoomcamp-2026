@@ -31,3 +31,25 @@ Topics:
 - model stability across random seeds
 
 [Open the notebook](02_regression_homework.ipynb)
+
+### Homework 4 — Evaluation
+
+Topics:
+- ROC AUC and numerical feature importance
+- logistic regression with one-hot encoding
+- precision, recall, and threshold selection
+- F1 score
+- five-fold cross-validation
+- regularization tuning with fold-local preprocessing
+
+[Open the notebook](04_evaluation_homework.ipynb)
+
+Uses the official 2026 lead-scoring dataset with `converted` as the target.
+The notebook includes saved outputs, precision/recall and F1 plots, and all six
+calculated answers matched to the official choices.
+
+To reproduce with Python 3.12, install the [pinned dependencies](04_evaluation_requirements.txt)
+with `python -m pip install -r 04_evaluation_requirements.txt`, then open the notebook
+from this directory and select **Restart Kernel and Run All**. The included
+[dataset snapshot](course_lead_scoring_2026.csv) is checked by SHA-256; the notebook
+downloads it from the official source if it is missing.
