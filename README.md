@@ -53,3 +53,11 @@ with `python -m pip install -r 04_evaluation_requirements.txt`, then open the no
 from this directory and select **Restart Kernel and Run All**. The included
 [dataset snapshot](course_lead_scoring_2026.csv) is checked by SHA-256; the notebook
 downloads it from the official source if it is missing.
+
+### Homework 5 — Deploying Machine Learning Models
+
+Uses the unchanged official 2026 release with Python 3.11.15 and locked dependencies.
+Model checksum, direct inference, and the FastAPI endpoints passed local verification.
+Docker execution is blocked because Docker Desktop and its CLI are unavailable.
+
+[Answers, commands, and verification evidence](05_deployment/answers.md)

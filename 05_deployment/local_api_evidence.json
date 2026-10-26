@@ -1,0 +1,15 @@
+﻿{
+    "official_q6_client_passed":  true,
+    "environment":  "local Windows API (not Docker)",
+    "tested_at":  "2026-10-26T20:15:34.2368198+04:00",
+    "health":  {
+                   "status":  "ok",
+                   "model_sha256":  "1646bbdcd38d4f044da6b630c5b332c93a314245a8c21929011c42de51f629f1",
+                   "feature_defaults_sha256":  "1694f842b908fac9f53c0cc19be6d91f934befc63af23cc32fefafde69acd0cd"
+               },
+    "rounded_probability":  "0.770",
+    "predict":  {
+                    "conversion_probability":  0.769799,
+                    "conversion":  true
+                }
+}
